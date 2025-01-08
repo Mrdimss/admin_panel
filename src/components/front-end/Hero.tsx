@@ -5,11 +5,11 @@ const Hero = () => {
                 <div className="flex items-center">
                     <div className="max-w-[450px] space-y-4">
                         <p className="text-topHeadingSecondary">
-                            Starting at <span className="font-bold">$999.00</span>
+                            Starting at <span className="font-bold">$4.88</span>
                         </p>
 
                         <h1 className="text-topHeadingPrimary font-bold text-4xl md:text-5xl">
-                            The best notebook collection 2025
+                            The best candy of the year
                         </h1>
 
                         <h3 className="text-2xl font-['Oregano',cursive]">
@@ -23,7 +23,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div>
-                    <img className="ml-auto" src="/placeholder.jpg" alt="hero" />
+                    <img className="ml-auto" src="/nerds1.png" alt="hero" />
                 </div>
             </div>
         </div>

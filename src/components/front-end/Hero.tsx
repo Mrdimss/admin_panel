@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Hero = () => {
     return (
         <div className="bg-[#E3EDF6] mt-4">
@@ -23,7 +24,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div>
-                    <img className="ml-auto" src="/nerds1.png" alt="hero" />
+                    <Image className="ml-auto" src="/nerds1.png" alt="hero" width={400} height={400} />
                 </div>
             </div>
         </div>

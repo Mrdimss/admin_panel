@@ -45,8 +45,8 @@ const Sidebar = () => {
   return (
     <div className="bg-white w-[300px] min-h-screen p-4 shrink-0">
       <div className="flex items-center gap-4">
-        <img className="w-12 h-12 rounded-lg" src="/logo.jpg" alt="logo" />
-        <h2 className="text-[20px] font-semibold">Zaa Store</h2>
+        <img className="w-12 h-12 rounded-lg" src="/logo1.png" alt="logo" />
+        <h2 className="text-[20px] font-semibold">Admin</h2>
       </div>
 
       <ul className="space-y-4 mt-6">
@@ -54,9 +54,9 @@ const Sidebar = () => {
           <Link
             key={menu.title}
             href={menu.href}
-            className={`flex gap-2 items-center p-4 rounded-lg cursor-pointer hover:bg-pink 
+            className={`flex gap-2 items-center p-4 rounded-lg cursor-pointer hover:bg-[#ffde59] 
                     hover:text-white' ${
-                      pathName === menu.href ? "bg-pink text-white" : "bg-gray-200"
+                      pathName === menu.href ? "bg-[#ffde59] text-white" : "bg-gray-200"
                     }`}
           >
             <div className="text-[20px]">{menu.icon}</div>

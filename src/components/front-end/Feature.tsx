@@ -1,28 +1,29 @@
 import FeatureCard from "./FeatureCard";
-import { TbTruckDelivery, TbDiscount } from "react-icons/tb";
+import { TbTruckDelivery, TbDiscount, TbAlarm } from "react-icons/tb";
 import { RiRefund2Fill } from "react-icons/ri";
-import { MdSupportAgent } from "react-icons/md";
+import { GiNoodles } from "react-icons/gi";
+import { AiOutlineSafety } from "react-icons/ai";
 
 const data = [
     {
-        icon: <TbTruckDelivery className="text-4xl" />,
-        title: "Free Delivery",
-        desc: "Orders from all item",
+        icon: <TbAlarm className="text-4xl" />,
+        title: "Pesan Mudah & Cepat",
+        desc: "Tersedia pemesanan online via website dan aplikasi.",
     },
     {
         icon: <RiRefund2Fill className="text-4xl" />,
-        title: "Return & Refund",
-        desc: "Money back guarantee",
+        title: "Pembayaran Mudah",
+        desc: "Pembayaran mudah dan praktis di berbagai platform",
     },
     {
-        icon: <TbDiscount className="text-4xl" />,
-        title: "Member Discount",
-        desc: "On order over $50.00",
+        icon: <GiNoodles className="text-4xl" />,
+        title: "Cita Rasa Autentik",
+        desc: "Rasa gurih dan nikmat yang menggugah selera.",
     },
     {
-        icon: <MdSupportAgent className="text-4xl" />,
-        title: "Support 24/7",
-        desc: "Contact us 24 hours a day",
+        icon: <AiOutlineSafety className="text-4xl" />,
+        title: "Higienis dan Halal",
+        desc: "Sertifikasi halal bagi kenyamanan konsumen muslim.",
     },
 ];
 

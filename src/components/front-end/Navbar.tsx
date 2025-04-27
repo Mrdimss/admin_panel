@@ -14,12 +14,12 @@ const Navbar = ({setShowCart}:PropsType) => {
   return <div className='pt-4 bg-white top-0 sticky'>
     <div className="container">
         <div className='flex justify-between items-center'>
-            <div className='text-4xl font-bold'>Wonka Store</div>
+            <img src="/logo1.png" alt="Logo" width={80} height={80} />
             <div className='lg:flex hidden w-full max-w-[500px]'>
-              <input className='border-2 border-accent px-6 py-2 w-full' 
+              <input className='border-2 border-[#ffde59] px-6 py-2 w-full' 
               type="text"
               placeholder='Search for products...' />
-              <div className='bg-accent text-white text-[26px] grid place-items-center px-4'>
+              <div className='bg-[#ffde59] text-white text-[26px] grid place-items-center px-4'>
                 <BsSearch />
               </div>
             </div>

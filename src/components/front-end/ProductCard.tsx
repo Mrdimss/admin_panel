@@ -43,12 +43,12 @@ const ProductCard = ({ id, img, category, title, price }: propsType) => {
                     <AiFillStar />
                     <AiFillStar />
                     <AiOutlineStar />
-                    <p className="text-gray-600 text-[14px] ml-2">(3 Review)</p>
+                    <p className="text-gray-600 text-[14px] ml-2">(10 Review)</p>
                 </div>
 
                 <div className="flex justify-between items-center mt-4">
-                    <h2 className="font-medium text-accent text-xl">${price}</h2>
-                    <div className="flex gap-2 items-center bg-pink text-white px-4 py-2 cursor-pointer hover:bg-accent" onClick={addProductToCart}>
+                    <h2 className="font-medium text-accent text-xl">Rp. {price}</h2>
+                    <div className="flex gap-2 items-center bg-[#ffde59] text-black px-4 py-2 cursor-pointer hover:bg-accent" onClick={addProductToCart}>
                         <AiOutlineShoppingCart /> Add To Cart
                     </div>
                 </div>

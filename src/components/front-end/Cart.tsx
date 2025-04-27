@@ -37,13 +37,13 @@ const Cart = ({ setShowCart }: any) => {
 
                 <div className="flex justify-between items-center font-medium text-xl py-4">
                     <p>Total:</p>
-                    <p>${getTotal()}</p>
+                    <p>Rp.{getTotal()}</p>
                 </div>
 
-                <button className="bg-black text-white text-center w-full rounded-3xl py-2 hover:bg-accent mb-4 mt-4">
+                <button className="bg-black text-white text-center w-full rounded-3xl py-2 hover:bg-[#ffde59] mb-4 mt-4">
                     View Cart
                 </button>
-                <button className="bg-black text-white text-center w-full rounded-3xl py-2 hover:bg-accent">
+                <button className="bg-black text-white text-center w-full rounded-3xl py-2 hover:bg-[#ffde59]">
                     CheckOut
                 </button>
             </div>
